@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QG7CDPJR3G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QG7CDPJR3G');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JC Botelho | Coordenador de Tecnologia no Itaú Unibanco, Engenheiro de Software & Criador Digital</title>
@@ -221,6 +230,9 @@
   }
   </script>
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -233,6 +245,7 @@
       <a href="/" class="logo"><span>JC</span> Botelho <span class="logo-dot"></span></a>
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
       <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#producoes">Produções</a></li>
@@ -358,40 +371,52 @@
       </div>
       <div class="services-grid">
         <div class="service-card fade-in">
-          <div class="service-icon">☁️</div>
-          <h3>Sonda.me</h3>
-          <p>
-            Plataforma de nuvem pessoal com armazenamento de arquivos e aplicações integradas,
-            focada em autonomia digital e simplicidade. Seu espaço seguro na nuvem.
-          </p>
-          <a href="https://sonda.me" target="_blank" rel="noopener" class="service-link">
-            Acessar plataforma
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+          <div class="service-img">
+            <img src="assets/images/logo-sonda-me.png" alt="Sonda.me Logo" loading="lazy">
+          </div>
+          <div class="service-content">
+            <h3>Sonda.me</h3>
+            <p>
+              Plataforma de nuvem pessoal com armazenamento de arquivos e aplicações integradas,
+              focada em autonomia digital e simplicidade. Seu espaço seguro na nuvem.
+            </p>
+            <a href="https://sonda.me" target="_blank" rel="noopener" class="service-link">
+              Acessar plataforma
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
         </div>
         <div class="service-card fade-in">
-          <div class="service-icon">💰</div>
-          <h3>FinSis</h3>
-          <p>
-            Sistema de gestão financeira pessoal com foco em organização,
-            controle e tomada de decisão. Gerencie suas finanças com inteligência.
-          </p>
-          <a href="https://finsis.com.br" target="_blank" rel="noopener" class="service-link">
-            Acessar plataforma
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+          <div class="service-img">
+            <img src="assets/images/logo-finsis.png" alt="FinSis Logo" loading="lazy">
+          </div>
+          <div class="service-content">
+            <h3>FinSis</h3>
+            <p>
+              Sistema de gestão financeira pessoal com foco em organização,
+              controle e tomada de decisão. Gerencie suas finanças com inteligência.
+            </p>
+            <a href="https://finsis.com.br" target="_blank" rel="noopener" class="service-link">
+              Acessar plataforma
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
         </div>
         <div class="service-card fade-in">
-          <div class="service-icon">💀</div>
-          <h3>Clã do Terror</h3>
-          <p>
-            Site de contos de terror originais. Histórias sombrias, envolventes e
-            perturbadoras para quem gosta de narrativas que tiram o sono.
-          </p>
-          <a href="https://cladoterror.com" target="_blank" rel="noopener" class="service-link">
-            Ler contos
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+          <div class="service-img">
+            <img src="assets/images/logo-cladoterror.png" alt="Clã do Terror Logo" loading="lazy">
+          </div>
+          <div class="service-content">
+            <h3>Clã do Terror</h3>
+            <p>
+              Site de contos de terror originais. Histórias sombrias, envolventes e
+              perturbadoras para quem gosta de narrativas que tiram o sono.
+            </p>
+            <a href="https://cladoterror.com" target="_blank" rel="noopener" class="service-link">
+              Ler contos
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -454,8 +479,8 @@
             <h3>Revista Aterrorizante</h3>
             <p>Projeto editorial digital de terror com 8 edições publicadas na Amazon Kindle, incluindo especiais de Natal e Halloween. Contos originais de horror nacional.</p>
             <div class="production-links">
-              <a href="https://www.amazon.com.br/s?k=revista+aterrorizante" target="_blank" rel="noopener">
-                Ver na Amazon
+              <a href="revista-aterrorizante.html">
+                Ver todas as edições
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               </a>
             </div>

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QG7CDPJR3G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QG7CDPJR3G');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículo — JC Botelho | Trajetória Profissional em Tecnologia</title>
@@ -16,6 +25,9 @@
   <meta property="og:url" content="https://jcbotelho.com/curriculo.html">
   <meta property="og:image" content="https://jcbotelho.com/assets/images/jc-botelho.jpeg">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,6 +40,7 @@
       <a href="/" class="logo"><span>JC</span> Botelho <span class="logo-dot"></span></a>
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
       <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#inicio">Início</a></li>
         <li><a href="index.html#sobre">Sobre</a></li>
         <li><a href="index.html#servicos">Serviços</a></li>
         <li><a href="index.html#producoes">Produções</a></li>
@@ -253,22 +266,6 @@
     </div>
   </section>
 
-  <!-- DOWNLOAD -->
-  <section class="download-section">
-    <div class="container">
-      <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 16px;">
-        Prefere o formato tradicional? Baixe o PDF completo.
-      </p>
-      <a href="assets/documents/curriculum.pdf" download class="btn-download">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-          <polyline points="7 10 12 15 17 10"/>
-          <line x1="12" y1="15" x2="12" y2="3"/>
-        </svg>
-        Baixar Currículo PDF
-      </a>
-    </div>
-  </section>
 
   <!-- FOOTER -->
   <footer class="footer">
