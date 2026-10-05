@@ -88,29 +88,19 @@ img { max-width: 100%; display: block; }
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 17px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  color: var(--text-primary);
-  text-transform: uppercase;
-}
-.logo-icon {
-  width: 32px;
-  height: 24px;
-  object-fit: contain;
-  filter: drop-shadow(0 0 8px rgba(255,255,255,0.2));
   transition: var(--transition);
 }
-.logo:hover .logo-icon {
-  transform: scale(1.06);
+.logo-img-main {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.12));
+  transition: var(--transition);
 }
-.logo span { color: var(--accent-white); }
-.logo-dot {
-  display: inline-block; width: 5px; height: 5px;
-  background: var(--text-primary);
-  margin-left: 2px;
+.logo:hover .logo-img-main {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 16px rgba(255,255,255,0.28));
 }
 
 .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
