@@ -1,11 +1,11 @@
 {
   "name": "JC Botelho | Coordenador de Tecnologia & Engenharia",
   "short_name": "JC Botelho",
-  "description": "Site pessoal e currículo profissional de João Claudio Botelho Rosa (JC Botelho) — Coordenador de Tecnologia no Itaú Unibanco.",
+  "description": "Site profissional e produções criativas de João Claudio Botelho Rosa (JC Botelho) — Coordenador de Tecnologia e Engenheiro de Software.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a0a",
-  "theme_color": "#eab308",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
   "icons": [
     {
       "src": "favicon.svg",
