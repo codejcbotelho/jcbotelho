@@ -2,11 +2,16 @@
 
 echo "🚀 Iniciando publicação para S3 e CloudFront..."
 
+# Otimização e compressão automática de imagens
+echo "🖼️  Otimizando imagens e assets..."
+python compress_assets.py --in-place || python3 compress_assets.py --in-place || true
+
 # Sincroniza arquivos para o S3
 aws s3 sync ./ s3://jcbotelho.com --acl public-read \
   --exclude ".git/*" \
   --exclude ".gitignore" \
   --exclude "publish.sh" \
+  --exclude "compress_assets.py" \
   --exclude "plan.md" \
   --exclude "README.md" \
   --exclude "docs/*" \
