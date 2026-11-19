@@ -415,6 +415,17 @@ img { max-width: 100%; display: block; }
 .production-links {
   display: flex; flex-wrap: wrap; gap: 8px;
 }
+.download-group-label {
+  display: block;
+  width: 100%;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
 .production-links a {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 12px; font-weight: 700;
@@ -425,6 +436,11 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--border-glass);
   color: var(--text-primary);
   transition: var(--transition);
+}
+.production-links a.btn-download-action {
+  font-size: 11px;
+  padding: 7px 12px;
+  gap: 6px;
 }
 .production-links a:hover {
   background: var(--accent-white);

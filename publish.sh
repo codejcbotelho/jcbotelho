@@ -4,7 +4,7 @@ echo "🚀 Iniciando publicação para S3 e CloudFront..."
 
 # Otimização e compressão automática de imagens
 echo "🖼️  Otimizando imagens e assets..."
-python compress_assets.py --in-place || python3 compress_assets.py --in-place || true
+python3 compress_assets.py --in-place || true
 
 # Sincroniza arquivos para o S3
 aws s3 sync ./ s3://jcbotelho.com --acl public-read \
