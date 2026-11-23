@@ -10,6 +10,9 @@ python3 compress_assets.py --in-place || true
 aws s3 sync ./ s3://jcbotelho.com --acl public-read \
   --exclude ".git/*" \
   --exclude ".gitignore" \
+  --exclude ".agents/*" \
+  --exclude "AGENTS.md" \
+  --exclude "GEMINI.md" \
   --exclude "publish.sh" \
   --exclude "compress_assets.py" \
   --exclude "plan.md" \
